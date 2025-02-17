@@ -1,4 +1,4 @@
-?#include <iostream>
+ï»¿ï»¿#include <iostream>
 #include "Paciente.h"
 #include "Medico.h"
 #include "CitaMedica.h"
@@ -12,11 +12,11 @@ int main() {
     Paciente* paciente2 = new Paciente("P002", "Maria Gomez", "1985-11-22");
     paciente2->agregarRegistroMedico("Diabetes tipo 2");
 
-    // Crear algunos médicos
+    // Crear algunos mÃ©dicos
     Medico* medico1 = new Medico("M001", "Dr. Garcia", "Cardiologia");
     Medico* medico2 = new Medico("M002", "Dra. Martinez", "Neurologia");
 
-    // Crear algunas citas médicas
+    // Crear algunas citas mÃ©dicas
     std::vector<CitaMedica*> citas;
 
     CitaMedica* cita1 = new CitaMedica("C001", paciente1, medico1, "2025-02-15 10:00", 3);
@@ -24,8 +24,8 @@ int main() {
 
     citas.push_back(cita1);
     citas.push_back(cita2);
-
-    // Mostrar información de las citas
+        
+    // Mostrar informaciÃ³n de las citas
     for (const auto& cita : citas) {
         std::cout << "------------------------" << std::endl;
         std::cout << "Cita ID: " << cita->getId() << std::endl;
