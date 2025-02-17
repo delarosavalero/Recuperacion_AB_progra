@@ -1,18 +1,24 @@
 ﻿cmake_minimum_required(VERSION 3.10)
-project(Recuperacion_AB_progra LANGUAGES CXX)
+project(GestionHospitalaria LANGUAGES CXX)
 
-# Establecer el estándar de C++ a C++11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Agregar los archivos fuente
+# Definir rutas de directorios
+set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
+set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
+
+# Lista de archivos fuente (asegúrate de que los nombres sean correctos)
 set(SOURCES
-    src/main.cpp
-    src/Paciente.cpp
-    src/Medico.cpp
-    src/CitaMedica.cpp
-    src/GestionHospitalaria.cpp
+    ${SRC_DIR}/main.cpp
+    ${SRC_DIR}/Paciente.cpp
+    ${SRC_DIR}/Medico.cpp
+    ${SRC_DIR}/CitaMedica.cpp
+    ${SRC_DIR}/GestionHospitalaria.cpp
 )
 
 # Crear el ejecutable
 add_executable(hospital ${SOURCES})
+
+
+
