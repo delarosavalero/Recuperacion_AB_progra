@@ -1,19 +1,17 @@
 ﻿cmake_minimum_required(VERSION 3.10)
-project(Recuperacion_AB_progra)
+project(Recuperacion_AB_progra LANGUAGES CXX)
 
-# Establecer el estándar de C++
-set(CMAKE_CXX_STANDARD 20)
+# Establecer el estándar de C++ a C++11
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Establecer la ruta del proyecto
-set(PROJECT_ROOT "C:\Users\danie\OneDrive\Escritorio\Recuperacion_AB_progra")
-
-# Añadir el directorio de includes
-include_directories(${PROJECT_ROOT}/include)
-
-# Obtener todos los archivos fuente
-file(GLOB SOURCES
-    "${PROJECT_ROOT}/src/*.cpp"
+# Agregar los archivos fuente
+set(SOURCES
+    src/main.cpp
+    src/Paciente.cpp
+    src/Medico.cpp
+    src/CitaMedica.cpp
+    src/GestionHospitalaria.cpp
 )
 
 # Crear el ejecutable
