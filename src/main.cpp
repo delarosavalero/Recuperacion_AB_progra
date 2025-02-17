@@ -38,7 +38,8 @@ int main() {
         std::cout << "Error al guardar datos." << std::endl;
     }
 
-    std::cout << "Presiona una tecla para salir..." << std:.endl;
+    std::cout << "Presiona una tecla para salir..." << std::endl;
     system("pause");
     return 0;
 }
+
