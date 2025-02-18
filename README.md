@@ -20,6 +20,7 @@ Recuperacion_AB_progra/
 include/: Contiene los archivos de cabecera (.hpp) con la definición de las clases.
 src/: Contiene los archivos de implementación (.cpp) y el archivo principal main.cpp.
 CMakeLists.txt: Archivo de configuración para compilar el proyecto con CMake.
+
 Funcionalidades
 
 El simulador permite:
@@ -29,9 +30,7 @@ Gestión de Médicos: Agregar, buscar, actualizar y eliminar médicos.
 Gestión de Citas: Agregar citas médicas.
 Ordenar citas por fecha o por nivel de urgencia.
 Cancelar citas.
-Manejo de Archivos:
-
-Guardar y cargar los datos en un archivo (datos_hospital.txt).
+Manejo de Archivos: Guardar y cargar los datos en un archivo (datos_hospital.txt).
 El programa presenta un menú interactivo en la terminal que permite al usuario seleccionar distintas operaciones.
 
 Requisitos C++11 o superior.
@@ -43,8 +42,7 @@ Clonar o descargar el proyecto en tu máquina.
 Abrir una terminal en la raíz del proyecto.
 
 Crear un directorio de compilación y navegar a él:
-mkdir build
-cd build
+mkdir build/cd build
 
 Generar los archivos de compilación con CMake:
 cmake ..
