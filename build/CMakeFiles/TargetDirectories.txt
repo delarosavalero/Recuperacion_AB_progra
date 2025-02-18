@@ -1,3 +1,0 @@
-C:/Users/danie/OneDrive/Escritorio/Recuperacion_AB_progra/build/CMakeFiles/hospital.dir
-C:/Users/danie/OneDrive/Escritorio/Recuperacion_AB_progra/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/danie/OneDrive/Escritorio/Recuperacion_AB_progra/build/CMakeFiles/ZERO_CHECK.dir
